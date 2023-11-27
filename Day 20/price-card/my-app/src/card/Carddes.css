@@ -1,0 +1,53 @@
+.carddesign{
+    background-color: white;
+    width: 310px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: 15px;
+    padding:15px;
+    /* text-align: start; */
+}
+/* body{ */
+    /* display: flex; */
+/* } */
+#Head1{
+    font-size: 40px;
+    margin: 0px 50px;
+    
+}
+#Head0{
+    font-weight: bold;
+    margin:0px 44%;
+    color:grey;
+}
+#wrong1{
+    color:grey;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#butend{
+   position: relative;
+   top:10px;
+   margin: 5px;
+}
+#tick{
+    display:grid;
+    justify-content: space-between;
+}
+#wrong1{
+    display:grid;
+    justify-content: space-between;
+}
+#wron{
+    font-weight: bold;
+}
+#lic{
+    height: 0.2px;
+  background-color: lightcyan;
+}

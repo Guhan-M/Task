@@ -1,0 +1,43 @@
+body{
+ display: flex;
+ justify-content: center;
+ background-color: cadetblue;
+ width: auto;
+ height: auto;
+}
+
+.div1{
+    background-color:azure;
+    width: 350px;
+    height: 550px;
+    border: 5px solid  green;
+    border-radius: 25px;
+    
+}
+.header1{
+    color:black;
+    text-align: center;
+    font-size: 40px; 
+}
+#td{
+    /* width:340px; */
+    margin:20px;
+}
+button{
+    width: 80%;
+    padding: 15px;
+    font-size: 30px;
+    border: 1.5px solid black;
+    margin:8px;
+    border:2px solid green;
+    border-radius: 15px;
+    background-color:lightgrey;
+    font-weight: 24px;
+}
+#result{
+    width: 100%; 
+    font-size: 30px;
+    height: 60px;
+    border-radius: 8px;
+    background-color:white;
+}

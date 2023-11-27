@@ -1,0 +1,10 @@
+body{
+  background-color: rgb(18, 107, 184);
+}
+.cardde1{
+  display:flex;
+  flex-direction: row;
+  padding: 2%;
+  justify-content:space-evenly;
+  flex-flow: wrap;
+}
