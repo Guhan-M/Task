@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: tomato;
+        }
+        #count{
+            font-size: 100px;
+            text-align: center;
+            background-color: aqua;
+            border-radius: 25px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding:5px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <b><p id="count"></p></b>
+    <script>
+        var count=document.getElementById("count");
+        setTimeout(()=>{
+            count.innerText="10"
+            console.log("10")
+            setTimeout(()=>{
+                count.innerText="9"
+                console.log("9")
+            },1000)  
+            setTimeout(()=>{
+                count.innerText="8"
+                console.log("8")
+            },2000)
+            setTimeout(()=>{
+                count.innerText="7"
+                console.log("7")
+            },3000)
+            setTimeout(()=>{
+                count.innerText="6"
+                console.log("6")
+            },4000)
+            setTimeout(()=>{
+                count.innerText="5"
+                console.log("5")
+            },5000)        
+            setTimeout(()=>{
+                count.innerText="4"
+                console.log("4")
+            },6000)
+            setTimeout(()=>{
+                count.innerText="3"
+                console.log("3")
+            },7000)
+            setTimeout(()=>{
+                count.innerText="2"
+                console.log("2")
+            },8000)
+            setTimeout(()=>{
+                count.innerText="1"
+                console.log("1")
+            },9000)
+            setTimeout(()=>{
+                count.innerText="Happy Independence Day"
+                console.log("Happy Independence Day")
+            },10000)
+        },)
+  </script>
+</body>
+</html>
