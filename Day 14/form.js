@@ -221,8 +221,8 @@ function final(){
     }
     cell8.innerHTML=checkst.slice(0,-1);
     table.append(tbody)
-    let re=document.getElementsByName("input")
-    re.rest();
+    // let re=document.getElementsByName("input")
+    // re.reset();
 
 }
 
